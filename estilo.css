@@ -1,0 +1,64 @@
+/*Estilo geral do site*/
+body{ 
+    background-color:rgb(77, 76, 76);
+    font-size: 100%; 
+    
+} 
+h1{ 
+    text-align:center; 
+    background-color: darkred; 
+    color: white; 
+
+}
+p{ 
+    font-size: 1.5em; 
+    color: black;  
+
+} 
+h2{
+    text-align:center;
+    background-color:rgb(4, 0, 37);
+    color: white;
+
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.item img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.item a {
+    font-weight: bold;
+    color: black;
+}
+
+/* Estilo geral das seções */
+section {
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo compartilhado das imagens */
+.imagens {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 200px;
+    border-radius: 8px;
+}
